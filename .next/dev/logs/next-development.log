@@ -1,0 +1,63 @@
+[00:00:02.811] Server  LOG      ✓ Ready in 1668ms
+[00:00:06.106] Server  LOG      ○ Compiling / ...
+[00:00:10.894] Server  LOG     [API Call] "everything" {} "https://newsapi.org/v2/everything?q=Nigeria&language=en&sortBy=publishedAt&pageSize=100&apiKey=eeaa11e84dcd492196e08c89f9ca54b5"
+[00:00:13.959] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:14.949] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:14.950] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:14.950] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763819251918}
+[00:00:15.593] Browser WARN    Image with src "/placeholder.svg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:00:36.821] Browser ERROR   ./components/Footer.tsx:2:1
+Export FaWhatsApp doesn't exist in target module
+  1 | import { Facebook, Mail } from "lucide-react";
+> 2 | import { FaWhatsApp } from "react-icons/fa";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Footer() {
+  5 |   return (
+
+The export FaWhatsApp was not found in module [project]/node_modules/react-icons/fa/index.mjs [app-rsc] (ecmascript).
+Did you mean to import FaWhatsapp?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/Footer.tsx
+    ./app/page.tsx
+[00:01:01.367] Server  LOG      ✓ Compiled in 158ms
+[00:01:01.762] Server  LOG     [API Call] "everything" {} "https://newsapi.org/v2/everything?q=Nigeria&language=en&sortBy=publishedAt&pageSize=100&apiKey=eeaa11e84dcd492196e08c89f9ca54b5"
+[00:01:19.834] Server  LOG     [API Call] "everything" {} "https://newsapi.org/v2/everything?q=Nigeria&language=en&sortBy=publishedAt&pageSize=100&apiKey=eeaa11e84dcd492196e08c89f9ca54b5"
+[00:02:27.105] Server  LOG     [API Call] "everything" {} "https://newsapi.org/v2/everything?q=Nigeria&language=en&sortBy=publishedAt&pageSize=100&apiKey=eeaa11e84dcd492196e08c89f9ca54b5"
+[00:03:28.532] Server  LOG     [API Call] "everything" {} "https://newsapi.org/v2/everything?q=Nigeria&language=en&sortBy=publishedAt&pageSize=100&apiKey=eeaa11e84dcd492196e08c89f9ca54b5"
+[00:05:05.001] Server  LOG     [API Call] "everything" {} "https://newsapi.org/v2/everything?q=Nigeria&language=en&sortBy=publishedAt&pageSize=100&apiKey=eeaa11e84dcd492196e08c89f9ca54b5"
+[00:05:16.457] Server  LOG     [API Call] "everything" {} "https://newsapi.org/v2/everything?q=Nigeria&language=en&sortBy=publishedAt&pageSize=100&apiKey=eeaa11e84dcd492196e08c89f9ca54b5"
+[00:05:32.390] Server  LOG     [API Call] "everything" {} "https://newsapi.org/v2/everything?q=Nigeria&language=en&sortBy=publishedAt&pageSize=100&apiKey=eeaa11e84dcd492196e08c89f9ca54b5"
+[00:05:46.844] Server  LOG     [API Call] "everything" {} "https://newsapi.org/v2/everything?q=Nigeria&language=en&sortBy=publishedAt&pageSize=100&apiKey=eeaa11e84dcd492196e08c89f9ca54b5"
+[00:06:10.460] Server  LOG     [API Call] "everything" {} "https://newsapi.org/v2/everything?q=Career+Astrology%3A+What+your+birth+chart+says+about+your+ideal+profession&sortBy=publishedAt&language=en&apiKey=eeaa11e84dcd492196e08c89f9ca54b5"
+[00:06:10.741] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/article/Career%20Astrology%3A%20What%20your%20birth%20chart%20says%20about%20your%20ideal%20profession color: rgb(120, 120, 120) color: inherit {"dp":"/article/[id]","o":"http://localhost:3000/article/Career%20Astrology%3A%20What%20your%20birth%20chart%20says%20about%20your%20ideal%20profession","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763819607706}
+[00:06:11.456] Server  LOG     {}
+[00:06:26.645] Server  LOG     [Cache Hit] "everything-{\"q\":\"Nigeria\",\"language\":\"en\",\"sortBy\":\"publishedAt\",\"pageSize\":100}"
+[00:06:27.505] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763819624459}
+[00:10:05.200] Server  LOG     [API Call] "everything" {} "https://newsapi.org/v2/everything?q=Nigeria&language=en&sortBy=publishedAt&pageSize=100&apiKey=eeaa11e84dcd492196e08c89f9ca54b5"
+[00:11:08.805] Server  LOG     [API Call] "everything" {} "https://newsapi.org/v2/everything?q=Nigeria&language=en&sortBy=publishedAt&pageSize=100&apiKey=eeaa11e84dcd492196e08c89f9ca54b5"
+[00:11:56.896] Server  LOG     [API Call] "top-headlines" {} "https://newsapi.org/v2/top-headlines?category=general&language=en&apiKey=eeaa11e84dcd492196e08c89f9ca54b5"
+[00:11:57.476] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/category/general color: rgb(120, 120, 120) color: inherit {"dp":"/category/[name]","o":"http://localhost:3000/category/general","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763819954437}
+[00:12:55.915] Server  LOG     [API Call] "top-headlines" {} "https://newsapi.org/v2/top-headlines?category=general&language=en&apiKey=eeaa11e84dcd492196e08c89f9ca54b5"
+[00:12:56.673] Server  LOG     [Cache Hit] "top-headlines-{\"category\":\"general\",\"language\":\"en\"}"
+[00:13:02.834] Server  LOG     [API Call] "everything" {} "https://newsapi.org/v2/everything?q=Nigeria&language=en&sortBy=publishedAt&pageSize=100&apiKey=eeaa11e84dcd492196e08c89f9ca54b5"
+[00:13:03.621] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763820020573}
+[00:14:17.519] Server  LOG     [API Call] "everything" {} "https://newsapi.org/v2/everything?q=Nigeria&language=en&sortBy=publishedAt&pageSize=100&apiKey=eeaa11e84dcd492196e08c89f9ca54b5"
+[00:15:39.063] Server  LOG     [API Call] "everything" {} "https://newsapi.org/v2/everything?q=Nigeria&language=en&sortBy=publishedAt&pageSize=100&apiKey=eeaa11e84dcd492196e08c89f9ca54b5"
+[00:15:39.494] Server  LOG     [Cache Hit] "everything-{\"q\":\"Nigeria\",\"language\":\"en\",\"sortBy\":\"publishedAt\",\"pageSize\":100}"
+[00:15:44.292] Server  LOG     [Cache Hit] "everything-{\"q\":\"Nigeria\",\"language\":\"en\",\"sortBy\":\"publishedAt\",\"pageSize\":100}"
+[00:15:47.740] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:48.389] Browser WARN    Image with src "https://journals.plos.org/plosntds/article/figure/image?id=10.1371/journal.pntd.0013736.t004&size=inline" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:15:48.621] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:15:48.621] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:15:48.621] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763820185590}
+[00:16:08.215] Server  LOG     [API Call] "everything" {} "https://newsapi.org/v2/everything?q=Home+birth+and+associated+factors+in+Nigeria%3A+A+comparative+study+of+rural+and+urban+settings%E2%80%94Analysis+of+national+population-based+data&sortBy=publishedAt&language=en&apiKey=eeaa11e84dcd492196e08c89f9ca54b5"
+[00:16:08.408] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/article/Home%20birth%20and%20associated%20factors%20in%20Nigeria%3A%20A%20comparative%20study%20of%20rural%20and%20urban%20settings%E2%80%94Analysis%20of%20national%20population-based%20data color: rgb(120, 120, 120) color: inherit {"dp":"/article/[id]","o":"http://localhost:3000/article/Home%20birth%20and%20associated%20factors%20in%20Nigeria%3A%20A%20comparative%20study%20of%20rural%20and%20urban%20settings%E2%80%94Analysis%20of%20national%20population-based%20data","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763820205372}
+[00:16:08.964] Server  LOG     {}
+[00:17:00.111] Server  LOG     [API Call] "everything" {} "https://newsapi.org/v2/everything?q=Nigeria&language=en&sortBy=publishedAt&pageSize=100&apiKey=eeaa11e84dcd492196e08c89f9ca54b5"
+[00:17:01.493] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763820258421}
