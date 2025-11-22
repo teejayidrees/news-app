@@ -38,7 +38,7 @@ export default function NewsCard({ article }: NewsCardProps) {
     const yesterday = new Date(now);
     yesterday.setDate(now.getDate() - 1);
     if (date.toDateString() === yesterday.toDateString()) {
-      return `Yesterday at ${date.toLocaleTimeString("en-US", {
+      return `Today at ${date.toLocaleTimeString("en-US", {
         hour: "2-digit",
         minute: "2-digit",
       })}`;

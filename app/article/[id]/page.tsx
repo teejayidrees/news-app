@@ -13,7 +13,6 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
   const { id } = await params;
   const title = decodeURIComponent(id);
   const article = await getArticleByTitle(title);
-  console.log(article);
   if (!article) {
     notFound();
   }
